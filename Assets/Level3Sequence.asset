@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a05b3a4f6c9cb4c82069bf292250b8, type: 3}
+  m_Name: Level3Sequence
+  m_EditorClassIdentifier: 
+  _steps:
+  - rid: 2299322139958312960
+  - rid: 2299322139958312961
+  references:
+    version: 2
+    RefIds:
+    - rid: 2299322139958312960
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: Don't you get tired of this endless cycle, mortal?
+        _bossPart: {fileID: 11400000, guid: a1439ec72d662da448d9d6303a47c60d, type: 2}
+        _audioClip: {fileID: 8300000, guid: 6af173390aff64c46afbb27368bc92e5, type: 3}
+    - rid: 2299322139958312961
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: Don't you get tired of getting smacked down?
+        _bossPart: {fileID: 11400000, guid: e70adc3b97de60848a7aa35d8a7b64d9, type: 2}
+        _audioClip: {fileID: 8300000, guid: fcd13b9fe8a467749a440a460e659b3e, type: 3}

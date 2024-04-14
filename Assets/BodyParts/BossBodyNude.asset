@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5439362b599e4890ad1b2ffe3a8f18b1, type: 3}
+  m_Name: BossBodyNude
+  m_EditorClassIdentifier: 
+  CanBeHit: 1
+  CanBeHitBehind: 0
+  Collides: 1
+  PartType: 0
+  Strength: 2
+  AttackPattern: []
+  AttackCooldown: 0
+  AttackDaze: 0
+  AttackDelay: 0
+  TargetDistance: 3
+  EffectIndex: -1
+  EffectOffset: 0
+  AttackAudioClip: {fileID: 0}
+  IdleSprites:
+  - {fileID: -1527229100, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  - {fileID: 1600516182, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  - {fileID: -1997629384, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  - {fileID: 1720061013, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  AttackSprites: []
+  PaperdollSprites: []
+  PaperdollName: 
+  _frames: 1

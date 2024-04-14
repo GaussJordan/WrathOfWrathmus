@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca2f0ae4a3cd4d37b62c0f813590993f, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: 
+  UnlockedParts:
+  - {fileID: 11400000, guid: 6e1fad3f7ca9e93438a1d2855abdb29f, type: 2}
+  - {fileID: 11400000, guid: d2e5dcdefc48ab243af1ef0fca4ef183, type: 2}
+  - {fileID: 11400000, guid: a1439ec72d662da448d9d6303a47c60d, type: 2}
+  - {fileID: 11400000, guid: b59966ce92dab484584410d0c063922c, type: 2}
+  RequiredStrength: 5
+  LockedBody: {fileID: 0}
+  LockedArm: {fileID: 0}
+  LockedHead: {fileID: 0}
+  FirstTimeSequence: {fileID: 11400000, guid: 405573603205dc74aba48a908caa2034, type: 2}
+  LoseSequence: {fileID: 0}
+  BossSpawnPoint: {x: -1, y: -1}
+  PlayerSpawnPoint: {x: -1, y: -4}
+  TilemapIndex: 0

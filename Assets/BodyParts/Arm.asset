@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5439362b599e4890ad1b2ffe3a8f18b1, type: 3}
+  m_Name: Arm
+  m_EditorClassIdentifier: 
+  CanBeHit: 0
+  CanBeHitBehind: 0
+  Collides: 0
+  PartType: 2
+  Strength: 1
+  AttackPattern:
+  - {x: 0, y: -1}
+  AttackCooldown: 1
+  AttackDaze: 0.5
+  AttackDelay: 1
+  TargetDistance: 1
+  EffectIndex: -1
+  EffectOffset: 0
+  AttackAudioClip: {fileID: 8300000, guid: 162797e83e519d04d919d0e39953f5b5, type: 3}
+  IdleSprites:
+  - {fileID: 231212278, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  - {fileID: 1017335279, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  - {fileID: 231212278, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  AttackSprites: []
+  PaperdollSprites: []
+  PaperdollName: 
+  _frames: 1

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a05b3a4f6c9cb4c82069bf292250b8, type: 3}
+  m_Name: Level7Sequence
+  m_EditorClassIdentifier: 
+  _steps:
+  - rid: 2299322139958312960
+  - rid: 2299322139958312961
+  - rid: 2299322139958312962
+  - rid: 2299322139958312963
+  references:
+    version: 2
+    RefIds:
+    - rid: 2299322139958312960
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: What is this DISGUSTING body you put me in?
+        _bossPart: {fileID: 11400000, guid: a1439ec72d662da448d9d6303a47c60d, type: 2}
+        _audioClip: {fileID: 8300000, guid: ffa7c8f28808bff49b9beb49b5efdabf, type: 3}
+    - rid: 2299322139958312961
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: How ludum-dare you?
+        _bossPart: {fileID: 11400000, guid: a1439ec72d662da448d9d6303a47c60d, type: 2}
+        _audioClip: {fileID: 8300000, guid: ccbc360d33ef57343af694c9e3e18984, type: 3}
+    - rid: 2299322139958312962
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: Don't you worry. You'll figure it out like you usually do. Don't
+          forget what a champ you are.
+        _bossPart: {fileID: 11400000, guid: e70adc3b97de60848a7aa35d8a7b64d9, type: 2}
+        _audioClip: {fileID: 8300000, guid: 5953ad96ddd15c54793a6a5047a9437d, type: 3}
+    - rid: 2299322139958312963
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: Thanks friendo...
+        _bossPart: {fileID: 11400000, guid: a1439ec72d662da448d9d6303a47c60d, type: 2}
+        _audioClip: {fileID: 8300000, guid: 689dc32bb57239a42886ba6f1f88f5ab, type: 3}

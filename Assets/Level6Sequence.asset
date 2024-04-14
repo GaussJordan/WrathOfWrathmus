@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a05b3a4f6c9cb4c82069bf292250b8, type: 3}
+  m_Name: Level6Sequence
+  m_EditorClassIdentifier: 
+  _steps:
+  - rid: 2299322139958312960
+  - rid: 2299322139958312961
+  - rid: 2299322139958312964
+  references:
+    version: 2
+    RefIds:
+    - rid: 2299322139958312960
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: This ends now MORTAL! No more games!
+        _bossPart: {fileID: 11400000, guid: a1439ec72d662da448d9d6303a47c60d, type: 2}
+        _audioClip: {fileID: 8300000, guid: bfd8fbc0d7192754284cae92239665db, type: 3}
+    - rid: 2299322139958312961
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: This is a game to me, and guess what? I'm winning!
+        _bossPart: {fileID: 11400000, guid: e70adc3b97de60848a7aa35d8a7b64d9, type: 2}
+        _audioClip: {fileID: 8300000, guid: d190740120e7a8643a7d5a73aa4f3696, type: 3}
+    - rid: 2299322139958312964
+      type: {class: ShowDialogueLine, ns: , asm: Assembly-CSharp}
+      data:
+        _message: Exhume my excrement you little... piece of... sheetmetal!
+        _bossPart: {fileID: 11400000, guid: a1439ec72d662da448d9d6303a47c60d, type: 2}
+        _audioClip: {fileID: 8300000, guid: c388d9f5a5ff1a146848513d1c93fa8b, type: 3}

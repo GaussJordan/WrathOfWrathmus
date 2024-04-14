@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5439362b599e4890ad1b2ffe3a8f18b1, type: 3}
+  m_Name: HeadNude
+  m_EditorClassIdentifier: 
+  CanBeHit: 0
+  CanBeHitBehind: 0
+  Collides: 0
+  PartType: 1
+  Strength: 20
+  AttackPattern: []
+  AttackCooldown: 0
+  AttackDaze: 0
+  AttackDelay: 0
+  TargetDistance: 1
+  EffectIndex: -1
+  EffectOffset: 0
+  AttackAudioClip: {fileID: 0}
+  IdleSprites:
+  - {fileID: -703440623, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  - {fileID: -857155317, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  - {fileID: 696694728, guid: 51aae6af5ef477448bf57218dc1be127, type: 3}
+  AttackSprites: []
+  PaperdollSprites:
+  - {fileID: -1901418781, guid: 2f3d10de180b90b4e95ed37f6a8523fc, type: 3}
+  - {fileID: 1780786051, guid: 2f3d10de180b90b4e95ed37f6a8523fc, type: 3}
+  PaperdollName: Kevin
+  _frames: 1
